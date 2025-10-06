@@ -1,7 +1,7 @@
-.pagina-inicial-celular-menu {
+.pagina-inicial-computador {
 width: 100%;
 position: relative;
-background: linear-gradient(180deg, #40024e, #470356 0.01%, #600474 33.65%, #9406b4 38.46%, #b013b7 46.15%, #c41dba 62.17%, #e015b4 68.76%, #fa0daf 74.68%, #fb1ab4 81.08%, #ff39c0 97.12%);
+background: linear-gradient(180deg, #40024e, #470356 0.01%, #600474 33.65%, #9406b4 38.46%, #b013b7 58.65%, #c41dba 71.88%, #fa0daf 85.05%, #fb1ab4 90.23%, #ff39c0 97.12%);
 height: 2658px;
 overflow: hidden;
 text-align: center;
@@ -9,7 +9,7 @@ font-size: 20px;
 color: #fff;
 font-family: Inter;
 }
-.pagina-inicial-celular-menu-child {
+.pagina-inicial-computador-child {
 position: absolute;
 top: -1px;
 left: -1px;
@@ -22,29 +22,38 @@ height: 203px;
 }
 .facebooklogo-1-icon {
 position: absolute;
-top: 43px;
-left: 1106px;
+top: 37px;
+left: 1135px;
 width: 106px;
 height: 106px;
 object-fit: cover;
 }
 .logoinsta-1-icon {
 position: absolute;
-top: 57px;
-left: 1212px;
+top: 51px;
+left: 1241px;
 width: 78px;
 height: 78px;
 object-fit: cover;
 }
 .youtubelogo-1-icon {
 position: absolute;
-top: 44px;
-left: 1290px;
+top: 38px;
+left: 1319px;
 width: 105px;
 height: 105px;
 object-fit: cover;
 }
-.pagina-inicial-celular-menu-item {
+.partedalogo {
+position: absolute;
+top: 37px;
+left: 20px;
+border-radius: 50%;
+background-color: #fff;
+width: 140px;
+height: 121px;
+}
+.pagina-inicial-computador-item {
 position: absolute;
 top: 953px;
 left: 94px;
@@ -55,7 +64,46 @@ box-sizing: border-box;
 width: 1212px;
 height: 181px;
 }
-.pagina-inicial-celular-menu-inner {
+.play {
+position: absolute;
+top: 970px;
+left: 642px;
+border-radius: 50%;
+background-color: #030000;
+width: 155px;
+height: 147px;
+}
+.botaodeplay-1-icon {
+position: absolute;
+top: 1009px;
+left: 701px;
+width: 62px;
+height: 70px;
+object-fit: cover;
+}
+.pagina-inicial-computador-inner {
+position: absolute;
+top: 1005px;
+left: 947px;
+border-radius: 37px;
+background-color: #d9d9d9;
+border: 6px solid #3b0a46;
+box-sizing: border-box;
+width: 215px;
+height: 74px;
+}
+.ver-programao {
+position: absolute;
+top: 1032px;
+left: 994px;
+font-size: 12px;
+line-height: 20px;
+font-weight: 500;
+color: #000;
+-webkit-text-stroke: 1px #000;
+paint-order: stroke fill;
+}
+.rectangle-div {
 position: absolute;
 top: 1005px;
 left: 277px;
@@ -77,69 +125,6 @@ color: #000;
 -webkit-text-stroke: 1px #000;
 paint-order: stroke fill;
 }
-.play {
-position: absolute;
-top: 970px;
-left: 617px;
-border-radius: 50%;
-background-color: #000;
-width: 155px;
-height: 147px;
-}
-.botaodeplay-1-icon {
-position: absolute;
-top: 1009px;
-left: 676px;
-width: 62px;
-height: 70px;
-object-fit: cover;
-}
-.rectangle-div {
-position: absolute;
-top: 1005px;
-left: 863px;
-border-radius: 37px;
-background-color: #d9d9d9;
-border: 6px solid #3b0a46;
-box-sizing: border-box;
-width: 215px;
-height: 74px;
-}
-.ver-programao {
-position: absolute;
-top: 1032px;
-left: 910px;
-font-size: 12px;
-line-height: 20px;
-font-weight: 500;
-color: #000;
--webkit-text-stroke: 1px #000;
-paint-order: stroke fill;
-}
-.menu {
-position: absolute;
-top: 57px;
-left: 25px;
-background-color: #fff;
-width: 69px;
-height: 10px;
-}
-.menu2 {
-position: absolute;
-top: 103px;
-left: 25px;
-background-color: #fff;
-width: 69px;
-height: 10px;
-}
-.menu3 {
-position: absolute;
-top: 80px;
-left: 25px;
-background-color: #fff;
-width: 69px;
-height: 10px;
-}
 .radioequipe2-2-icon {
 position: absolute;
 top: 237px;
@@ -157,7 +142,7 @@ background-color: #fff;
 width: 29px;
 height: 26px;
 }
-.pagina-inicial-celular-menu-pagina-inicial-celular-menu-child {
+.pagina-inicial-computador-pagina-inicial-computador-child {
 position: absolute;
 top: 816px;
 left: 620px;
@@ -166,7 +151,7 @@ background-color: rgba(255, 255, 255, 0.69);
 width: 29px;
 height: 26px;
 }
-.pagina-inicial-celular-menu-child2 {
+.pagina-inicial-computador-child2 {
 position: absolute;
 top: 816px;
 left: 707px;
@@ -175,7 +160,7 @@ background-color: #fff;
 width: 29px;
 height: 26px;
 }
-.pagina-inicial-celular-menu-child3 {
+.pagina-inicial-computador-child3 {
 position: absolute;
 top: 816px;
 left: 790px;
@@ -184,7 +169,7 @@ background-color: #fff;
 width: 29px;
 height: 26px;
 }
-.pagina-inicial-celular-menu-child4 {
+.pagina-inicial-computador-child4 {
 position: absolute;
 top: 816px;
 left: 750px;
@@ -193,7 +178,16 @@ background-color: #fff;
 width: 29px;
 height: 26px;
 }
-.pagina-inicial-celular-menu-child5 {
+.fotoparawebsite-1-icon {
+position: absolute;
+top: 1492px;
+left: 66px;
+border-radius: 97px;
+width: 361px;
+height: 481px;
+object-fit: cover;
+}
+.pagina-inicial-computador-child5 {
 position: absolute;
 top: 2306px;
 left: -6px;
@@ -201,99 +195,18 @@ background-color: #0b0000;
 width: 1446px;
 height: 352px;
 }
-.nossos-contatos-endereo-container {
+.jmradio-1-icon {
 position: absolute;
-top: 2353px;
-left: 556px;
-line-height: 20px;
-display: inline-block;
-width: 301px;
-height: 281px;
-}
-.nossos-contatos {
-margin: 0;
-}
-.pagina-inicial-celular-menu-nossos-contatos {
-font-weight: 900;
-}
-.jmradiomaffeigmailcombr {
-margin: 0;
-font-size: 15px;
-font-weight: 500;
-}
-.logoradio-3-icon {
-position: absolute;
-top: 2385px;
-left: 58px;
-width: 157px;
-height: 118px;
+top: 63px;
+left: 41px;
+width: 98px;
+height: 69px;
 object-fit: cover;
-}
-.redes-sociais {
-position: absolute;
-top: 2326px;
-left: 1182px;
-line-height: 20px;
-font-weight: 900;
-}
-.facebooklogo-3-icon {
-position: absolute;
-top: 2357px;
-left: 1115px;
-width: 106px;
-height: 106px;
-object-fit: cover;
-}
-.youtubelogo-3-icon {
-position: absolute;
-top: 2358px;
-left: 1299px;
-width: 105px;
-height: 105px;
-object-fit: cover;
-}
-.logoinsta-3-icon {
-position: absolute;
-top: 2371px;
-left: 1221px;
-width: 78px;
-height: 78px;
-object-fit: cover;
-}
-.a-educao-integral {
-position: absolute;
-top: 2501px;
-left: 45px;
-line-height: 20px;
-font-weight: 900;
-display: inline-block;
-width: 184px;
-height: 77px;
-}
-.jmrdio-todos {
-position: absolute;
-top: 2583px;
-left: 1082px;
-font-size: 16px;
-line-height: 20px;
-font-weight: 500;
-}
-.desenvolvido-por-isis {
-position: absolute;
-top: 2608px;
-left: 1261px;
-font-size: 14px;
-line-height: 20px;
-font-weight: 500;
-color: #fffafa;
-}
-.isis {
-color: #f80bf4;
 }
 .explore-nossos-vdeos-container {
 position: absolute;
-top: 1188px;
-left: 146px;
+top: 1209px;
+left: 167px;
 line-height: 30px;
 color: #fffafa;
 display: inline-block;
@@ -305,39 +218,70 @@ font-size: 40px;
 margin: 0;
 font-weight: 900;
 }
-.blank-line3 {
+.blank-line {
 margin: 0;
 font-size: 20px;
+}
+.pagina-inicial-computador-blank-line {
+font-weight: 500;
 }
 .confira-nossos-vdeos-e-fique {
 margin: 0;
 font-size: 32px;
 }
-.pagina-inicial-celular-menu-confira-nossos-vdeos-e-fique {
+.equipe {
+position: absolute;
+top: 89px;
+left: 390px;
+line-height: 20px;
 font-weight: 500;
+font-family: 'Instrument Sans';
 }
-.fotoparawebsite-2-icon {
+.concursos {
 position: absolute;
-top: 1471px;
-left: 45px;
-border-radius: 97px;
-width: 361px;
-height: 481px;
-object-fit: cover;
+top: 89px;
+left: 633px;
+line-height: 20px;
+font-weight: 500;
+font-family: 'Instrument Sans';
 }
-.equipe2-2-icon {
+.programas {
 position: absolute;
-top: 1471px;
-left: 515px;
+top: 89px;
+left: 811px;
+line-height: 20px;
+font-weight: 500;
+font-family: 'Instrument Sans';
+}
+.mdias {
+position: absolute;
+top: 89px;
+left: 513px;
+line-height: 20px;
+font-weight: 500;
+font-family: 'Instrument Sans';
+}
+.sobre-ns {
+position: absolute;
+top: 89px;
+left: 226px;
+line-height: 20px;
+font-weight: 500;
+font-family: 'Instrument Sans';
+}
+.equipe2-1-icon {
+position: absolute;
+top: 1492px;
+left: 536px;
 border-radius: 115px;
 width: 401px;
 height: 480px;
 object-fit: cover;
 }
-.image-2-icon {
+.image-1-icon {
 position: absolute;
-top: 1471px;
-left: 1025px;
+top: 1492px;
+left: 1046px;
 border-radius: 88px;
 width: 344px;
 height: 478px;
@@ -345,8 +289,8 @@ object-fit: cover;
 }
 .de-estudantes-para {
 position: absolute;
-top: 1980px;
-left: 68px;
+top: 2054px;
+left: -1422px;
 font-size: 24px;
 line-height: 30px;
 font-weight: 900;
@@ -355,8 +299,8 @@ width: 305px;
 }
 .nos-bastidores-com {
 position: absolute;
-top: 1980px;
-left: 1082px;
+top: 2054px;
+left: -408px;
 font-size: 24px;
 line-height: 30px;
 font-weight: 900;
@@ -365,44 +309,150 @@ width: 229px;
 }
 .do-mic-para {
 position: absolute;
-top: 1986px;
-left: 570px;
+top: 2060px;
+left: -920px;
 font-size: 24px;
 line-height: 30px;
 font-weight: 900;
 display: inline-block;
 width: 273px;
 }
-.partedalogo {
+.pagina-inicial-computador-de-estudantes-para {
 position: absolute;
-top: 47px;
-left: 664px;
-border-radius: 50%;
-background-color: #fff;
-width: 140px;
-height: 121px;
+top: 1989px;
+left: 99px;
+font-size: 24px;
+line-height: 30px;
+font-weight: 900;
+display: inline-block;
+width: 305px;
 }
-.jmradio-2-icon {
+.pagina-inicial-computador-nos-bastidores-com {
 position: absolute;
-top: 73px;
-left: 685px;
-width: 98px;
-height: 69px;
+top: 1989px;
+left: 1113px;
+font-size: 24px;
+line-height: 30px;
+font-weight: 900;
+display: inline-block;
+width: 229px;
+}
+.pagina-inicial-computador-do-mic-para {
+position: absolute;
+top: 1995px;
+left: 601px;
+font-size: 24px;
+line-height: 30px;
+font-weight: 900;
+display: inline-block;
+width: 273px;
+}
+.paranaintegral-2-icon {
+position: absolute;
+top: 2466px;
+left: 1072px;
+width: 362px;
+height: 104px;
 object-fit: cover;
 }
-.maffei-1-icon {
+.nossos-contatos-endereo-container {
 position: absolute;
-top: 2523px;
-left: 647px;
+top: 2365px;
+left: 569px;
+line-height: 20px;
+display: inline-block;
+width: 301px;
+height: 281px;
+}
+.nossos-contatos {
+margin: 0;
+}
+.pagina-inicial-computador-nossos-contatos {
+font-weight: 900;
+}
+.jmradiomaffeigmailcombr {
+margin: 0;
+font-size: 15px;
+font-weight: 500;
+}
+.redes-sociais {
+position: absolute;
+top: 2331px;
+left: 1188px;
+line-height: 20px;
+font-weight: 900;
+}
+.facebooklogo-4-icon {
+position: absolute;
+top: 2362px;
+left: 1121px;
+width: 106px;
+height: 106px;
+object-fit: cover;
+}
+.youtubelogo-4-icon {
+position: absolute;
+top: 2363px;
+left: 1305px;
+width: 105px;
+height: 105px;
+object-fit: cover;
+}
+.logoinsta-4-icon {
+position: absolute;
+top: 2376px;
+left: 1227px;
+width: 78px;
+height: 78px;
+object-fit: cover;
+}
+.maffei-2-icon {
+position: absolute;
+top: 2526px;
+left: 660px;
 width: 120px;
 height: 120px;
 object-fit: cover;
 }
-.paranaintegral-1-icon {
+.jmrdio-todos {
 position: absolute;
-top: 2461px;
-left: 1066px;
-width: 362px;
-height: 104px;
+top: 2588px;
+left: 1088px;
+font-size: 16px;
+line-height: 20px;
+font-weight: 500;
+}
+.desenvolvido-por-isis {
+position: absolute;
+top: 2613px;
+left: 1267px;
+font-size: 14px;
+line-height: 20px;
+font-weight: 500;
+color: #fffafa;
+}
+.isis {
+color: #f80bf4;
+}
+.logoradio-4-icon {
+position: absolute;
+top: 2382px;
+left: 40px;
+width: 157px;
+height: 118px;
 object-fit: cover;
+}
+.a-educao-integral {
+position: absolute;
+top: 2498px;
+left: 27px;
+line-height: 20px;
+font-weight: 900;
+display: inline-block;
+width: 184px;
+height: 77px;
+}
+body {
+margin: 0;
+line-height: normal;
 }
